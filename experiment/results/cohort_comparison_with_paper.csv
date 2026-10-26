@@ -1,0 +1,8 @@
+Dimension,2023 Paper (Healthcare Analytics),Current Research Cohort,Significance of Advancement
+Cohort Size (N),299 patients,"50,000 patients",167-fold increase; eliminates small-sample variance & enables genuine generalization
+Feature Dimensionality,12 variables,68 multimodal features,"Incorporates gold-standard biomarkers (NT-proBNP, Troponin), ECG intervals, & Echo geometry"
+Clinical Diversity,Single hospital center (PIMS),"Multicenter (Inpatient, Preventive, Annual Checkup)",Provides heterogeneous ambulatory and inpatient clinical representations
+Cardiac Biomarkers,CPK only (non-specific),"BNP, NT-proBNP, High-Sensitivity Troponin-I, CRP",Direct adherence to ACC/AHA and ESC Clinical Heart Failure Guidelines
+Imaging & Electrophysiology,Ejection Fraction only,"EF %, LV Wall Thickness, Cardiomegaly, QTc, QRS, AFib",Captures myocardial structural remodeling & conduction abnormalities
+Medication & Comorbidity Context,"Diabetes, High BP, Smoking","Full GDMT (Beta-Blocker, ACEi, Diuretic, Statin) + CKD, CAD, MI",Enables adjustment for treatment effects and comorbidity interactions
+Handling of Outliers,Discarded 70+ critically ill patients via 1.5*IQR,"Retained all 50,000 patients via robust clinical scaling",Prevents catastrophic clinical selection bias

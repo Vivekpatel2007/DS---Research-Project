@@ -1,0 +1,6 @@
+Clinical Factor,2023 Paper Identification,Current Study Finding,Clinical Significance
+NT-proBNP & BNP,NOT INCLUDED in dataset (Major blind spot),#1 Most Powerful Predictor across SHAP & Cox (HR > 1.85 per SD),Gold-standard biomarker mandated by ACC/AHA guidelines; indispensable for early detection
+Ejection Fraction (%),Identified as top-3 factor,Top-2 Predictor; Non-linear threshold showing acute hazard escalation below 40%,Defines therapeutic phenotype (HFrEF vs HFpEF) and guides ICD/CRT implantation
+High-Sensitivity Troponin-I,NOT INCLUDED in dataset,Top-4 Predictor; Indicates subclinical ongoing myocardial necrosis,Signals ischemic burden and progressive cardiac destruction
+Renal Function (eGFR & Creatinine),Serum Creatinine ranked #1 (due to absence of cardiac biomarkers),Crucial Cardiorenal Modifier; eGFR < 60 doubles mortality hazard,Confirms cardiorenal syndrome: heart failure accelerates renal failure and vice-versa
+Serum Sodium & CPK,Ranked #4 and #5; Discarded extreme CPK values as 'outliers',Hyponatremia indicates advanced neurohormonal activation; preserved without discard,"Extreme values are clinical emergencies, not noise to be discarded"

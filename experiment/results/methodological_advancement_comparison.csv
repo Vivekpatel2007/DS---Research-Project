@@ -1,0 +1,8 @@
+Evaluation Criterion,2023 Paper Reported,Current Rigorous Study,Scientific Superiority
+Cohort Sample Size,299 patients (Pakistan PIMS),"50,000 patients (Multicenter)",167-fold increase; authentic statistical power & clinical representativeness
+Methodological Integrity,Flawed: SMOTE on entire dataset before split,100% Leakage-Free: Preprocessing inside folds,Eliminates synthetic contamination and optimistic illusion
+Patient Retention,Discarded 70+ critically ill patients,"Retained 100% of 50,000 cohort via robust scaling",Avoids severe selection bias against high-risk patients
+Best Model Architecture,Single Decision Tree Regressor (R² misreported as Accuracy),Multimodal Stacking Ensemble & LightGBM,Ensemble blending gradient boosters with Deep Tabular MLP
+Discrimination Metric,AUROC: ~0.84 - 0.89,AUROC: 0.9639 | AUPRC: 0.9054,"Validated out-of-sample on 10,000 unseen clinical records"
+Clinical Decision Analysis,None (no threshold or utility evaluation),Decision Curve Analysis (Net Clinical Benefit),Demonstrates clinical utility across 10%-50% risk thresholds
+Probabilistic Calibration,None (uncalibrated probabilities),Reliability Diagrams & Brier Score (0.0802),Guarantees reliable probabilistic risk outputs for physician decision support
